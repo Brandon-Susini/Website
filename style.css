@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+    /* Value here isent important
+    As long as other values work relative to this value
+    */
+    perspective: 10px;
+    
+}
+header{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    transform-style: preserve-3d;
+    z-index:-1;
+}
+
+.background{
+    transform: translateZ(-10px) scale(2);
+    
+}
+
+.foreground{
+    transform: translateZ(-5px), scale(1.5);
+}
+
+.background,
+.foreground{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+.foreground{
+    height:50%;
+    width: 50%;
+    object-fit: scale-down;
+    justify-self: left;
+}
+.title{
+    font-size: 10vw;
+    color:white;
+    text-shadow: 0 0 5px black;;
+}
+.body-wrapper{
+    height: 100%;
+    width: 100%;
+}
+section{
+    margin-bottom: 50px;
+    
+}
+
+form{
+    /* REM is based off of the font-size of the root element (html tag) so this would be
+    2 times the font-size of the html element*/
+    font-size:2rem;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    /*width:50%;*/
+    min-block-size: 100vh;
+    padding:15px;
+}
+
+form > ul > li{
+    height:15vh;
+}
+.btn-container{
+    padding: 0px;
+    border: 0px;
+    margin:0px;
+    height:100%;
+}
+ul{
+    list-style-type: none;
+}
+article{
+    position:relative;
+    background-color:#333;
+    font-size:2rem;
+    color:white;
+    padding:2rem;
+    height:100vh;
+    text-align: center;
+}
+article > p{
+    margin-top:10%;
+    font-size:3vh;
+}
+/*
+input{
+    text-align: center;ß
+}
+*/

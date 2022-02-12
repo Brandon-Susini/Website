@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" contnet = "IE=edge">
+    <meta name = "viewport" content = "width=device-width,
+                                       initial-scale=1.0">
+    <title>**My Title Here**</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="imgs/neuron-network-blue.jpg" class = "background">
+            <!-- <img src="imgs/techy_brain_orange.jpg" class = "foreground"> 
+            <img src="imgs/line_art_brain.png" class = "foreground">
+            -->
+            <h1 class="title">Welcome!</h1>
+        </header>
+        <link rel = 'stylesheet' href ='style.css'>
+        <div class= "body-wrapper">
+            <section>
+                <article id = "purpose">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+            </section>
+            <section>
+            <form action ="submit_data.php" method ="post">
+                <ul>
+                    <li>
+                    <label for="mbtiType" class = "mbti">MBTI Type:</label><br>
+                        <!--
+                    <input type = "text" id ="mbtiType" name = "mbtiType" value = "ISFJ" class = "input" class = "mbti">
+                        -->
+                    <select name="mbtiType" id = "mbtiType" class = "mbtiType">
+                        
+                        <option value="ESTP">ESTP</option>
+                        <option value="ESFP">ESFP</option>
+                        <option value="ESTJ">ESTJ</option>
+                        <option value="ESFJ">ESFJ</option>
+                        <option value="ISFP">ISFP</option>
+                        <option value="ISTP">ISTP</option>
+                        <option value="ISFJ">ISFJ</option>
+                        <option value="ISTJ">ISTJ</option>
+                        <option value="ENFP">ENFP</option>
+                        <option value="ENTP">ENTP</option>
+                        <option value="ENTJ">ENTJ</option>
+                        <option value="ENFJ">ENFJ</option>
+                        <option value="INFP">INFP</option>
+                        <option value="INTP">INTP</option>
+                        <option value="INFJ">INFJ</option>
+                        <option value="INTJ">INTJ</option>
+                    </select>
+                    </li>
+                    <hr>
+                    <li>
+                    <label for="socioType" class = "socio">Socio Type:</label><br>
+                    <!--
+                    <input type = "text" id ="socioType" name = "socioType" value = "ESI" class = "input" class = "socio">
+                    -->
+                    <select name="socioType" id = "socioType" class = "socioType">
+                        <option value="SLE">SLE</option>
+                        <option value="SEE">SEE</option>
+                        <option value="LSE">LSE</option>
+                        <option value="ESE">ESE</option>
+                        <option value="SEI">SEI</option>
+                        <option value="SLI">SLI</option>
+                        <option value="ESI">ESI</option>
+                        <option value="LSI">LSI</option>
+                        <option value="IEE">IEE</option>
+                        <option value="ILE">ILE</option>
+                        <option value="LIE">LIE</option>
+                        <option value="EIE">EIE</option>
+                        <option value="IEI">IEI</option>
+                        <option value="ILI">ILI</option>
+                        <option value="EII">EII</option>
+                        <option value="LII">LII</option>
+                    </select>
+                    </li>
+                    <hr>
+                    <li>
+                    <label for="Enneagram" class = "enneagram">Enneagram [XwY]:</label><br>
+                    
+                    <input type = "text" id ="enneagram" name = "enneagram" value = "7w8" class = "input" class = "enneagram">
+                    
+                    
+                    </li>
+                    <hr>
+                    <li>
+                    <label for="OPS" class = "op">Objective Personality:</label><br>
+                        <!--
+                    <input type = "text" id ="op" name = "op" value = "Si/Fe" class = "input" class = "op"><br>
+                    </li>
+                        -->
+                    <select name="OPS" id = "op" class = "op">
+                        <option value="Ni">Ni</option>
+                        <option value="Ne">Ne</option>
+                        <option value="Si">Si</option>
+                        <option value="Se">Se</option>
+                        <option value="Ti">Ti</option>
+                        <option value="Te">Te</option>
+                        <option value="Fi">Fi</option>
+                        <option value="Fe">Fe</option>
+                    </select>
+                        <select name="OPS2" id = "op2" class = "op">
+                        <option value="Ni">Ni</option>
+                        <option value="Ne">Ne</option>
+                        <option value="Si">Si</option>
+                        <option value="Se">Se</option>
+                        <option value="Ti">Ti</option>
+                        <option value="Te">Te</option>
+                        <option value="Fi">Fi</option>
+                        <option value="Fe">Fe</option>
+                    </select>
+                    <hr>
+                    <li>
+                        <div class ="btn-container">
+                        <input type="submit" value ="Submit" class ="special">
+                        <input type ="reset" class = "special">
+                        </div>
+                    </li>
+                </ul>
+                
+            
+            </form>
+            </section>
+        </div>
+        
+    </div>
+        
+    
+</body>
+</html>
