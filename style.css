@@ -38,8 +38,9 @@ header{
 .foreground{
     position: absolute;
     height: 100%;
-    width:100%;
+    width:103%;
     object-fit: cover;
+    
     z-index: -1;
     
 }
@@ -47,7 +48,6 @@ header{
     height:50%;
     width: 50%;
     object-fit: scale-down;
-    justify-self: left;
 }
 .title{
     font-size: 10vw;
@@ -93,15 +93,16 @@ ul{
 }
 #big-5-list{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,50px);
+    width:50vw;
+    margin:0px;
 }
 #big-5-list > label{
     grid-column:1;
     text-align: right;
 }
 #big-5-list > input{
-    display:flex;
-    max-width: 50vw;
+    grid-column: 2;
 }
 article{
     position:relative;
