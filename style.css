@@ -98,6 +98,7 @@ ul{
     width:50vw;
     justify-items:stretch;
     margin:auto;
+    align-items: center;
     /* Shifting over
     transform: translate(10vw);
     */
@@ -111,8 +112,8 @@ ul{
     justify-items: left;
     max-width:40px;
 }
-#big-5-li{
-
+.big-5-input{
+    text-align: right;
 }
 article{
     position:relative;
